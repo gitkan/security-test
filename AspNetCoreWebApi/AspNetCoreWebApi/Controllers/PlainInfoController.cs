@@ -10,7 +10,7 @@ namespace AspNetCoreWebApi.Controllers
 
 
         private static readonly string[] Secrets = new[]
-        { "dummyPassword999" }; // 任意入力のシークレット（サービスプロバイダー発行でないのでパターン記載ないはず）
+        { "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" }; // GitHubの期限切れアクセストークン
 
         public PlainInfoController(ILogger<PlainInfoController> logger)
         {
