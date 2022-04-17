@@ -8,6 +8,10 @@ namespace AspNetCoreWebApi.Controllers
     {
         private static ILogger<PlainInfoController> _logger;
 
+
+        private static readonly string[] Secrets = new[]
+        { "dummyPassword999" }; // 任意入力のシークレット（サービスプロバイダー発行でないのでパターン記載ないはず）
+
         public PlainInfoController(ILogger<PlainInfoController> logger)
         {
             _logger = logger;
