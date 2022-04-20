@@ -11,6 +11,7 @@ namespace AspNetCoreWebApi.Controllers
 
         private static readonly string[] Secrets = new[]
         { "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" }; // GitHubの期限切れアクセストークン
+        // 2022.04/20 コメントのみ更新
 
         public PlainInfoController(ILogger<PlainInfoController> logger)
         {
